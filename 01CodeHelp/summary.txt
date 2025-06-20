@@ -1,0 +1,50 @@
+Express->framework used for creating server side application
+
+GET
+The GET method is used to retrieve data from a server. It does not change the server state. Commonly used to fetch resources like web pages, user info, etc.
+
+POSTs
+The POST method is used to submit data to the server to create a new resource. It typically sends data in the request body and results in a change on the server (e.g., adding a new user).
+
+PUT
+The PUT method is used to update or replace an existing resource on the server. It sends the full updated data and replaces the current content at the specified resource.
+
+DELETE
+The DELETE method is used to remove a resource from the server. It changes the server state by deleting the specified item (e.g., a record or file).
+
+
+
+MongoDB->
+
+MongoDB is a NoSQL, open-source, document-oriented database designed for high performance, scalability, and flexibility. Instead of storing data in tables and rows (like relational databases), MongoDB stores data in JSON-like documents called BSON (Binary JSON), which allows for a more natural representation of hierarchical data.
+
+Key Features:
+Schema-less: Each document can have a different structure.
+
+Collections: Documents are grouped into collections (like tables).
+
+High scalability: Supports horizontal scaling using sharding.
+
+Flexible querying: Rich query language with support for filtering, sorting, aggregation, and indexing.
+
+Efficient storage: BSON format allows storing nested data and arrays.
+
+Use Cases:
+Ideal for applications with rapidly changing data, large-scale data storage, real-time analytics, content management, and mobile apps.
+
+
+ODM (Object Data Modeling)
+An ODM is a library or tool that allows you to interact with a database (like MongoDB) using objects in your programming language. It acts as a bridge between application code and the database, mapping JavaScript objects to MongoDB documents.
+
+Mongoose – ODM for MongoDB
+Mongoose is a popular ODM for Node.js and MongoDB. It provides:
+
+Schemas: Define the structure of documents in a collection.
+
+Models: Represent a MongoDB collection and allow querying, inserting, updating, and deleting.
+
+Validation: Built-in data validation rules.
+
+Middleware: Hook into events (e.g., before saving a document).
+
+Relationships: Support for referencing or embedding documents.
